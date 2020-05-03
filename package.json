@@ -19,6 +19,7 @@
     },
     "homepage": "https://github.com/MageStudio/mage-docs#readme",
     "dependencies": {
-        "docsify-cli": "^4.4.0"
+        "docsify-cli": "^4.4.0",
+        "docsify-darklight-theme": "^1.1.1"
     }
 }

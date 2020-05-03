@@ -30,11 +30,11 @@ Both elements can be styled freely.
 
 ## index.js
 
-This documentation is not going to provide help on how to bundle up your application or your stylesheets. Feel free to use whatever bundling tool you prefer.
+> This documentation is not going to provide help on how to bundle up your application or your stylesheets. Feel free to use whatever bundling tool you prefer.
 
 You project needs an entry point, which we will call `index.js` . It needs to look like this:
 
-```jsx
+```js
 import { Router } from 'mage-engine';
 import Scene from './first/Scene';
 
@@ -60,7 +60,7 @@ The last thing is the scene import line: `import Scene from './first/Scene';`.
 
 This line is obviously just importing the Scene from where you defined it. There are no constraints on how you name your scenes or where you define them.
 
-More informations on Router, how to configure your app or how to define and load your assets can be found here:
+> More informations on Router, how to configure your app or how to define and load your assets can be found here:
 
 [Router](https://www.notion.so/Router-5f643c465a0842748f7242b70a301480)
 
