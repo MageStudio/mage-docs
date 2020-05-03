@@ -1,0 +1,24 @@
+{
+    "name": "mage-docs",
+    "version": "0.0.0",
+    "description": "Mage Documentation",
+    "main": "index.js",
+    "scripts": {
+        "serve:docs": "docsify serve docs",
+        "init:docs": "docsify init ./docs",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MageStudio/mage-docs.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/MageStudio/mage-docs/issues"
+    },
+    "homepage": "https://github.com/MageStudio/mage-docs#readme",
+    "dependencies": {
+        "docsify-cli": "^4.4.0"
+    }
+}
