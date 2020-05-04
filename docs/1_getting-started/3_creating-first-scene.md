@@ -27,29 +27,4 @@ Explanation:
 
 > For a more in-depth documentation of the BaseScene class, please refer to this page: [BaseScene](/)
 
-If you open your `index.html` now, our FirstScene will be bound to the root path, but it will render nothing. Our `onCreate` method is currently doing nothing, so let's add the 3D equivalent of a Hello World, a cube.
-
----
-
-## Hello Cube
-
-Adding a cube to the scene is incredibly straightforward. What you need to do is import it from `mage-engine` and create a new instance of it. Our newly created `FirstScene` will look like this:
-
-```js
-import { BaseScene, Cube } from 'mage-engine';
-
-class FirstScene extends BaseScene {
-
-    onCreate() {
-        const size = 10;
-        const color = 0x00ff00;
-        const cube = new Cube(size, color);
-
-        cube.setPosition({ x: 0, y: 0, z: 0});
-    }
-}
-
-export default FirstScene;
-```
-
-Run the application now, and you will get 
+If you had a web server and you visited `index.html` now, our FirstScene will be bound to the root path, but it will render nothing. Our `onCreate` method is currently doing nothing, so how about we add something to it? It's time to say [Hello Cube](/1_getting-started/4_hello-cube.md).
