@@ -26,11 +26,12 @@ The structure of the page is completely up to you, but two elements are required
 
 Both elements can be styled freely.
 
+> As you can see, we're referring to `/dist/bundle.css` and `/dist/bundle.js`. This means we're going to assume you will have a bundling tool installed, and that you have a basic understanding of how they work. If you find yourself stuck, please refer to [Bundling examples](/getting-started/2_1_bundling_examples.md).
+
 ---
 
 ## index.js
 
-> This documentation is not going to provide help on how to bundle up your application or your stylesheets. Feel free to use whatever bundling tool you prefer.
 
 You project needs an entry point, which we will call `index.js` . It needs to look like this:
 
@@ -62,11 +63,11 @@ This line is obviously just importing the Scene from where you defined it. There
 
 > More informations on Router, how to configure your app or how to define and load your assets can be found here:
 
-[Router](https://www.notion.so/Router-5f643c465a0842748f7242b70a301480)
+[Router](/)
 
-[Configuration](https://www.notion.so/Configuration-3c39d9f4f0f543ef86cb941316816610)
+[Configuration](/)
 
-[Assets](https://www.notion.so/Assets-cfbb27f5f8484a4a8668ea12d19f612f)
+[Assets](/)
 
 ---
 
