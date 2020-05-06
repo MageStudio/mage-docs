@@ -26,7 +26,7 @@ The structure of the page is completely up to you, but two elements are required
 
 Both elements can be styled freely.
 
-> As you can see, we're referring to `/dist/app.css` and `/dist/app.js`. This means we're going to assume you will have a bundling tool installed, and that you have a basic understanding of how they work. If you find yourself stuck, please refer to [Bundling examples](2_tools/1_bundling.md).
+> As you can see, we're referring to `/dist/app.css` and `/dist/app.js`. This means we're going to assume you will have a bundling tool installed, and that you have a basic understanding of how they work. If you find yourself stuck, please refer to [Bundling examples](advanced/bundling.md).
 
 ---
 
@@ -75,4 +75,4 @@ This line is obviously just importing the Scene from where you defined it. There
 
 You're now ready to create your first scene.
 
-[Creating the first scene](/1_getting-started/3_creating-first-scene.md)
+[Creating the first scene](/getting-started/creating-first-scene.md)

@@ -56,4 +56,4 @@ If you now navigate to [`http://localhost:8000/`](http://localhost:8000/), you s
 
 ![A green line on black background](/img/first_scene.png "A green line on black background")
 
-A bit disappointing, right? We can do something to improve it by moving the [Camera](/1_getting-started/5_camera.md) a bit.
+A bit disappointing, right? We can do something to improve it by moving the [Camera](/getting-started/camera.md) a bit.

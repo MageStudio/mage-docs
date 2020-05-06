@@ -1,13 +1,41 @@
 - Getting started
-
-  - [Install](/1_getting-started/1_installing-mage-engine.md "Installing Mage Engine")
-  - [Project Setup](/1_getting-started/2_setting-up-your-project.md "Setting up your project")
-  - [Creating the first scene](/1_getting-started/3_creating-first-scene.md "Creating your first scene")
-  - [Hello Cube](/1_getting-started/4_hello-cube.md "Hello Cube")
-  - [Camera](/1_getting-started/5_camera.md "Camera")
-  - [Scripts](/1_getting-started/6_scripts.md "Scripts")
-- Tools
-  - [Bundling your application](/2_tools/1_bundling.md "Bundling your application")
-- API
+  - [1. Install](/getting-started/installing-mage-engine.md "Installing Mage Engine")
+  - [2. Project Setup](/getting-started/setting-up-your-project.md "Setting up your project")
+  - [3. Creating the first scene](/getting-started/creating-first-scene.md "Creating your first scene")
+  - [4. Hello Cube](/getting-started/hello-cube.md "Hello Cube")
+  - [5. Camera](/getting-started/camera.md "Camera")
+  - [6. Scripts](/getting-started/scripts.md "Scripts")
+  - [7. Handling input](/getting-started/handling-input.md "Handling Input")
+  
+- Advanced
+  - [Configuration](/advanced/configuration.md)
+  - Input
+    - [Mouse and Keyboard](/advanced/input/mouse_and_keyboard.md)
+    - [Gamepad](/advanced/input/gamepad.md)
+    - [Mobile](/advanced/input/mobile.md)
+  - [UI](/advanced/ui.md)
+  - [State Management](/advanced/state_management.md)
+  - Assets
+    - [Loading assets](/advanced/assets/loading.md)
+    - [Audio](/advanced/assets/audio.md)
+    - [Images and Textures](/advanced/assets/images_and_textures.md)
+    - [Models](/advanced/assets/models.md)
+    - [Video](/advanced/assets/video.md)
+  - Controls
+    - [First Person](/advanced/controls/first.md)
+    - [Third Person](/advanced/controls/third.md)
+    - [Orbit](/advanced/controls/orbit.md)
+    - [Transform](/advanced/controls/transform.md)
+    - [Fly](/advanced/controls/fly.md)
+  - Effects
+    - [PostProcessing](/advanced/effects/postprocessing.md)
+    - [Particles](/advanced/effects/particles.md)
+    - [Scenery](/advanced/effects/scenery.md)
+  - [Router](/advanced/router.md)
+  - [Animations](/advanced/animations.md)
+  - [State Machines](/advanced/state_machines.md)
+  - [Physics](/advanced/physics.md)
+  - [Bundling your application](/advanced/bundling.md "Bundling your application")
+  - [Deploying your application](/advanced/deploy.md "Deploying your application")
 
 - [Changelog](changelog.md)
