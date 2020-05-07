@@ -104,4 +104,4 @@ If you now run the application, you should see something like this:
 
 ---
 
-Cool! We now have a rotating cube. But what if we wanted to rotate the cube based on user [Input](/getting-started/handing-input.md)?
+Cool! We now have a rotating cube. But what if we wanted to rotate the cube based on user [Input](/getting-started/handling-input.md)?
