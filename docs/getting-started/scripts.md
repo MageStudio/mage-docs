@@ -41,13 +41,16 @@ Explanation:
 
 ---
 
-### Registering the script
+## Registering the script
 
 Now, we just defined a script, but we still need to attach it to the entity we defined earlier. In order to do so, we have to compelete two steps:
+
 1. We need to register the Script with the engine, so that it can be used and shared.
 2. We need to attach our cube to the script.
 
 To complete the first step, you need to import `Scripts` from `'mage-engine'` and use it properly, so head back to the `Scene.js` file, which should now have the following extra lines:
+
+### rotation.js
 
 ```js
 import { Scripts } from 'mage-engine';
@@ -101,4 +104,4 @@ If you now run the application, you should see something like this:
 
 ---
 
-Cool! We now have a rotating cube. But what if we wanted to rotate the cube based on user [Input](/getting-started/handing-input)?
+Cool! We now have a rotating cube. But what if we wanted to rotate the cube based on user [Input](/getting-started/handing-input.md)?
