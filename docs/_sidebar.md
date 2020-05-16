@@ -10,9 +10,9 @@
 - Advanced
   - [Configuration](/advanced/configuration.md)
   - Input
-    - [Mouse and Keyboard](/advanced/input/mouse_and_keyboard.md)
-    - [Gamepad](/advanced/input/gamepad.md)
-    - [Mobile](/advanced/input/mobile.md)
+    - [1. Mouse and Keyboard](/advanced/input/mouse_and_keyboard.md)
+    - [2. Gamepad](/advanced/input/gamepad.md)
+    - [3. Mobile](/advanced/input/mobile.md)
   - [UI](/advanced/ui.md)
   - [State Management](/advanced/state_management.md)
   - Assets
@@ -31,6 +31,10 @@
     - [PostProcessing](/advanced/effects/postprocessing.md)
     - [Particles](/advanced/effects/particles.md)
     - [Scenery](/advanced/effects/scenery.md)
+  - Utilities
+    - [1. Math](/utilities/math.md)
+    - [2. Features](/utilities/features.md)
+    - [3. Workers](/utilities/workers.md)
   - [Router](/advanced/router.md)
   - [Animations](/advanced/animations.md)
   - [State Machines](/advanced/state_machines.md)
