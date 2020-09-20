@@ -230,7 +230,7 @@ li input[type=checkbox] {
 }
 
 .github-corner svg {
-    color: #fff;
+    color: var(--background);
     fill: var(--accent);
     height: 80px;
     width: 80px
@@ -308,7 +308,10 @@ main.hidden {
 
 .sidebar li>p {
     font-weight: 700;
-    margin: 0
+    margin: 0;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 16px 0px;
 }
 
 .sidebar ul,
@@ -720,7 +723,8 @@ body {
 }
 
 .sidebar li {
-    margin: 6px 0
+    margin: 6px 0;
+    color: white;
 }
 
 .sidebar ul li a {
@@ -1015,7 +1019,8 @@ pre:after {
     -webkit-background-size: cover;
     background-size: cover;
     cursor: pointer;
-    transition: background-image .15s ease-in-out .15s
+    transition: background-image .15s ease-in-out .15s;
+    display: none;
 }
 
 #docsify-darklight-theme p {

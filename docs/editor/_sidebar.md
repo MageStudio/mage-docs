@@ -1,0 +1,47 @@
+- [< Home](/)
+
+- Getting started
+  - [1. Install](/editor/getting-started/installing-mage-engine.md "Installing Mage Engine")
+  - [2. Project Setup](/editor/getting-started/setting-up-your-project.md "Setting up your project")
+  - [3. Creating the first scene](/editor/getting-started/creating-first-scene.md "Creating your first scene")
+  - [4. Hello Cube](/editor/getting-started/hello-cube.md "Hello Cube")
+  - [5. Camera](/editor/getting-started/camera.md "Camera")
+  - [6. Scripts](/editor/getting-started/scripts.md "Scripts")
+  - [7. Handling input](/editor/getting-started/handling-input.md "Handling Input")
+  
+- Advanced
+  - [Configuration](/editor/advanced/configuration.md)
+  - Input 🎮
+    - [1. Mouse and Keyboard](/editor/advanced/input/mouse_and_keyboard.md)
+    - [2. Gamepad](/editor/advanced/input/gamepad.md)
+    - [3. Mobile](/editor/advanced/input/mobile.md)
+  - [UI](/editor/advanced/ui.md)
+  - [State Management](/editor/advanced/state_management.md)
+  - Assets
+    - [Loading assets](/editor/advanced/assets/loading.md)
+    - [Audio](/editor/advanced/assets/audio.md)
+    - [Images and Textures](/editor/advanced/assets/images_and_textures.md)
+    - [Models](/editor/advanced/assets/models.md)
+    - [Video](/editor/advanced/assets/video.md)
+  - Controls
+    - [First Person](/editor/advanced/controls/first.md)
+    - [Third Person](/editor/advanced/controls/third.md)
+    - [Orbit](/editor/advanced/controls/orbit.md)
+    - [Transform](/editor/advanced/controls/transform.md)
+    - [Fly](/editor/advanced/controls/fly.md)
+  - Effects
+    - [PostProcessing](/editor/advanced/effects/postprocessing.md)
+    - [Particles](/editor/advanced/effects/particles.md)
+    - [Scenery](/editor/advanced/effects/scenery.md)
+  - Utilities
+    - [1. Math](/editor/utilities/math.md)
+    - [2. Features](/editor/utilities/features.md)
+    - [3. Workers](/editor/utilities/workers.md)
+  - [Router](/editor/advanced/router.md)
+  - [Animations](/editor/advanced/animations.md)
+  - [State Machines](/editor/advanced/state_machines.md)
+  - [Physics](/editor/advanced/physics.md)
+  - [Bundling your application](/editor/advanced/bundling.md "Bundling your application")
+  - [Deploying your application](/editor/advanced/deploy.md "Deploying your application")
+
+- [Changelog](/editor/changelog.md)

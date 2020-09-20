@@ -1,3 +1,0 @@
-# This is not the page you're looking for
-
-![This is not the page you're looking for](/img/404.gif "This is not the page you're looking for")
