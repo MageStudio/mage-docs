@@ -15,13 +15,15 @@ import { Input } from 'mage-engine';
 Input.enableGamepad();
 ```
 
-> Events will be fired as soon as a gamepad is detected. For safety reasons, **user input is required before the gamepad is fully detected**: we recommend you to inform the user they should press a button on their device in order to use it.
+> The Gamepad module will be available as `Input.gamepad`.
+
+!> Events will be fired as soon as a gamepad is detected. For safety reasons, **user input is required before the gamepad is fully detected**: we recommend you to inform the user they should press a button on their device in order to use it.
 
 ---
 
 ## Events
 
-> All the following events have listeners in your Scene, according to the following pattern: for each event, the listener that will be used is `onEventName`, assuming that the event is `eventName`. Note that the difference between the listener name and the event name is the upperCase event name preceded by the prefix `on`.
+?> All the following events have listeners in your Scene, according to the following pattern: for each event, the listener that will be used is `onEventName`, assuming that the event is `eventName`. Note that the difference between the listener name and the event name is the upperCase event name preceded by the prefix `on`.
 
 If you want to set up listeners in your scripts, you have to:
 
@@ -127,6 +129,25 @@ Whenever you release a button on your gamepad, the following event will be dispa
   - `index` represents the unique id of the button on this gamepad
   - `key`. Mage will map the button to a key. If a mapping can't be found, Mage will use the [default mapping](/advanced/input/gamepad.md#mapping)
 - `gamepad` follows the definition described [here](https://developer.mozilla.org/en-US/docs/Web/API/Gamepad).
+
+---
+
+##  Methods
+
+The Gamepad module exposes the following method:
+
+### `getConnectedGamepads()`
+
+This method will return an object representing all connected gamepads. This object will be updated at each frame.
+```javascript
+{
+    '0': gamepad,
+    '1': gamepad,
+    ...
+}
+```
+
+For each entry, `gamepad` follows the definition described [here](https://developer.mozilla.org/en-US/docs/Web/API/Gamepad).
 
 ---
 

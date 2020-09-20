@@ -12,9 +12,10 @@
 - Advanced
   - [Configuration](/engine/advanced/configuration.md)
   - Input
-    - [1. Mouse and Keyboard](/engine/advanced/input/mouse_and_keyboard.md)
-    - [2. Gamepad](/engine/advanced/input/gamepad.md)
-    - [3. Mobile](/engine/advanced/input/mobile.md)
+    - [1. Mouse](/engine/advanced/input/mouse.md)
+    - [2. Keyboard](/engine/advanced/input/keyboard.md)
+    - [3. Gamepad](/engine/advanced/input/gamepad.md)
+    - [4. Mobile](/engine/advanced/input/mobile.md)
   - [UI](/engine/advanced/ui.md)
   - [State Management](/engine/advanced/state_management.md)
   - Assets

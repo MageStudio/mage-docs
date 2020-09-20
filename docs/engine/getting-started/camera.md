@@ -35,7 +35,7 @@ onCreate() {
 camera.lookAt(cube.getPosition());
 ```
 
-> Fore more in depth explanation of the Camera object, please refer to the API section. [Camera](/api/camera.md)
+?> Fore more in depth explanation of the Camera object, please refer to the API section. [Camera](/api/camera.md)
 
 If everything went smoothly, you should have something like this:
 ![A green wireframe cube on black background](/img/first_scene_camera.png "A green wireframe cube on black backgroun")

@@ -1,6 +1,6 @@
 # Handling User input
 
-In this section we're going to focus on how to handle user input via keyboard. Don't worry, there is a dedicated section for mouse input, that you can find [here](/advanced/input/mouse_and_keyboard.md).
+In this section we're going to focus on how to handle user input via keyboard. Don't worry, there is a dedicated section for mouse input, that you can find [here](/advanced/input/mouse.md).
 
 ---
 

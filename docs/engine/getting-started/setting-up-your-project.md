@@ -26,7 +26,7 @@ The structure of the page is completely up to you, but two elements are required
 
 Both elements can be styled freely.
 
-> As you can see, we're referring to `/dist/app.css` and `/dist/app.js`. This means we're going to assume you will have a bundling tool installed, and that you have a basic understanding of how they work. If you find yourself stuck, please refer to [Bundling examples](advanced/bundling.md).
+?> As you can see, we're referring to `/dist/app.css` and `/dist/app.js`. This means we're going to assume you will have a bundling tool installed, and that you have a basic understanding of how they work. If you find yourself stuck, please refer to [Bundling examples](advanced/bundling.md).
 
 ---
 
@@ -61,13 +61,7 @@ The last thing is the scene import line: `import Scene from './first/Scene';`.
 
 This line is obviously just importing the Scene from where you defined it. There are no constraints on how you name your scenes or where you define them.
 
-> More informations on Router, how to configure your app or how to define and load your assets can be found here:
-
-[Router](/)
-
-[Configuration](/)
-
-[Assets](/)
+?> More informations on Router, how to configure your app or how to define and load your assets can be found here: [Router](/), [Configuration](/) and [Assets](/).
 
 ---
 

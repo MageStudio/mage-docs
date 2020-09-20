@@ -25,6 +25,6 @@ Explanation:
 
 - `onCreate`: this is a lifecycle method of your Scene. It will be called when the scene has been created, assets have been loaded and it's now ready to render elements on your screen.
 
-> For a more in-depth documentation of the BaseScene class, please refer to this page: [BaseScene](/)
+?> For a more in-depth documentation of the BaseScene class, please refer to this page: [BaseScene](/)
 
 If you had a web server and you visited `index.html` now, our FirstScene will be bound to the root path, but it will render nothing. Our `onCreate` method is currently doing nothing, so how about we add something to it? It's time to say [Hello Cube](/getting-started/hello-cube.md).
