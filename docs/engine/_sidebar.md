@@ -11,6 +11,21 @@
   
 - Advanced
   - [Configuration](/engine/advanced/configuration.md)
+  - Core
+    - [1. Level](/engine/advanced/core/level.md)
+    - [2. Entity](/engine/advanced/core/entity.md)
+    - [3. Element](/engine/advanced/core/element.md)
+    - Base Elements
+      - [1. Cube]()
+      - [2. Box]()
+      - [3. Sphere]()
+      - [4. Cylinder]()
+      - [5. Plane]()
+      - [6. Line]()
+      - [7. CurvedLine]()
+      - [8. Grid]()
+      - [9. Sprite]()
+      - [10. AnimatedSprite]()
   - Input
     - [1. Mouse](/engine/advanced/input/mouse.md)
     - [2. Keyboard](/engine/advanced/input/keyboard.md)

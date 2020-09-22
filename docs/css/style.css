@@ -977,6 +977,10 @@ body {
     white-space: inherit
 }
 
+.markdown-section code.lang-json {
+    color: #3498db;
+}
+
 .markdown-section code:after,
 .markdown-section code:before {
     letter-spacing: .05rem
