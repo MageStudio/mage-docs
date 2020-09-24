@@ -22,7 +22,7 @@ const assets = {
             'modelForThisLevel': 'assets/models/box.gltf'
         }
     },
-    '/level': {
+    '/2dlevel': {
         'textures': {
             'spriteTexture': 'assets/textures/sprite.png'
         }
@@ -66,13 +66,15 @@ const config = {
 
 window.addEventListener('load', function() {
     Router.on('/', Intro);
-    Router.on('/level', First);
+    Router.on('/2dlevel', First);
 
     Router.start(config, assets, '#gameContainer');
 });
 ```
 
-Let's break it down.
+Let's break it down: we're going to see how to configure your app, define your assets and provide these data to the Router module.
+
+> A full explanation of the Router module is available [here](/engine/advanced/router.md).
 
 ---
 
@@ -164,3 +166,114 @@ fog: {
 
 ## Assets Definition
 
+Mage assets definition is a Javascript object that describes which assets your application needs. Mage handles a specific set of assets: `Textures`, `Images`, `Models` and `Audio` (for now...). You can also define level specific assets as well as application specific ones. Mage will take care of your assets loading automatically, and will provide an easy access to them once they're ready to be used.
+
+### The structure
+
+Here is how a sample assets definition would look like:
+
+```javascript
+const assets = {
+    'models': {
+        'player': 'assets/models/player.gltf'
+    },
+    'textures': {
+        'playerTexture': 'assets/textures/player.png'
+    },
+    'audio': {
+        'rain': 'assets/audio/rain.mp3'
+    },
+    'images': {
+        'poster1': 'assets/images/poster1.png'
+    }
+};
+```
+
+?> Each entry of this object is a key value pair. The key represents the id of the asset, and will be used to retrieve it in your code. The value is the path there the asset is located in your project.
+
+As said before, here are the allowed assets types:
+
+```js
+const ASSETS_TYPES = [
+    'textures',
+    'images',
+    'models'
+    'audio'
+];
+```
+
+### Application assets
+
+The root level of the assets definition object is where you will define assets that are being shared across levels. This means you can follow the structure defined above and just add more entries to each category of asset. This changes a bit when it comes to level specific assets.
+
+### Level assets
+
+Mage allows you to define assets that will only be loaded when their level is loaded. This allows you to load only what you need, when you need it. The definition of these assets is very similar and follow the same structure, but you need to proceed like follow:
+
+```js
+const assets = {
+    // general assets
+    'models': {
+        'player': 'assets/models/player.gltf'
+    },
+    'textures': {
+        'playerTexture': 'assets/textures/player.png'
+    },
+    'audio': {
+        'rain': 'assets/audio/rain.mp3'
+    },
+    'images': {
+        'poster1': 'assets/images/poster1.png'
+    }
+
+
+    // assets for the root level
+    '/': {
+        'models': {
+            'modelForThisLevel': 'assets/models/box.gltf'
+        },
+        'audio': {
+            'modelSteps': 'assets/audio/steps.mp3',
+            'thunder': 'assets/audio/thunder.mp3'
+        }
+    },
+
+    // assets for the level "2dlevel"
+    '/2dlevel': {
+        'textures': {
+            'spriteTexture': 'assets/textures/sprite.png'
+        }
+    }
+};
+```
+
+as you can see, we now a deeper structure: we are defining assets for the root level `/` and for `/2dlevel`. For each level, the structure is the same as above.
+
+---
+
+## Router initialisation
+
+This is one of the most important steps of your application, the one that starts the engine and loads the configuration. In the example above, we're pretending to have an application with two levels.
+
+```js
+window.addEventListener('load', function() {
+    Router.on('/', Intro);
+    Router.on('/2dlevel', First);
+
+    Router.start(config, assets, '#gameContainer');
+});
+```
+In this example, we're using the `load` even on the window object to initialise Router. We're not going to explain what the `Router.on(..)` method does here, since there is a detailed explanation in the Router module page. What we care about is the next line:
+
+```js
+Router.start(config, assets, '#gameContainer');
+```
+
+This line is calling the `start()` method on Router, which is currently accepting three parameters:
+- `config`: this is the configuration object we defined earlier.
+- `assets`: this is the assets definition object, which we just explained.
+- `'#gameContainer'`: this is the DOM selector for the container of your application. If Mage fails to find the given selector, it will generate a container automatically.
+
+After calling the `.start` method, your application will start (hopefully).
+
+?> A more in depth explanation of how the Router module works, how it handles levels and which methods exposes can be found [here](/engine/advanced/router.md).

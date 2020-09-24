@@ -1,3 +1,3 @@
-# Mage Documentation
+# Mage Editor
 
-Mage is a Javascript game engine built on top of THREE, OimoJS. It features all you need to create fully interactive 3D application that can be distributed via web, desktop or mobile.
+👀
