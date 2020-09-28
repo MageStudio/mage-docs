@@ -1,2 +1,5 @@
-- [Engine Documentation](/engine/)
-- [Editor Documentation](/editor/)
+- Engine
+    - [Documentation](/engine/)
+
+- Editor
+    - [Documentation](/editor/)

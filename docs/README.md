@@ -1,3 +1,3 @@
-# Mage Documentation
+# Welcome
 
 Hallo
