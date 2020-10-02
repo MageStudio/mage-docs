@@ -141,13 +141,13 @@ This lifecycle method gets called when you call `disableInput`. Check documentat
 
 This lifecycle method gets called when you call `enableUI`. Check documentation [here](/engine/core/level.md?id=enableui).
 
-### `onUiDisabled`
+### `onUiDisabled`
 
 This lifecycle method gets called when you call `disableUI`. Check documentation [here](/engine/core/level.md?id=disableui).
 
 ---
 
-## Level Disposal
+## Level Disposal
 
 When your application is about to change level, the current level is disposed. You can learn more about it in the Router documentation page [here](/engine/advanced/router.md). Disposing the level causes two lifecycle methods to be called.
 
