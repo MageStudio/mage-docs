@@ -115,7 +115,7 @@ This event will be fired once the page receives a `keyPress` event. Your listene
 
 ---
 
-##  Methods
+## Methods
 
 The Keyboard module exposes the following method:
 

@@ -66,6 +66,6 @@ enableUI(rootComponent, options);
 - `rootComponent` is the root component you want to render.
 - `options` represents a list of options for the component.
 
-> When rendering your root component, you can define the DOM element that will contain your UI tree. Mage will try to read the `root` key of the `options` object, expecting a string selector. By default, Mage will use the first element with id = `#ui`. You can find more informations about the level methods [here](/advanced/level.md).
+> When rendering your root component, you can define the DOM element that will contain your UI tree. Mage will try to read the `root` key of the `options` object, expecting a string selector. By default, Mage will use the first element with id = `#ui`. You can find more informations about the level methods [here](/engine/advanced/level.md).
 
-This is what you need to know to get started. For more detailed informations, you can follow the guide on how to connect your component to the Redux store [here](/advanced/state_management.md).
+This is what you need to know to get started. For more detailed informations, you can follow the guide on how to connect your component to the Redux store [here](/engine/advanced/state_management.md).

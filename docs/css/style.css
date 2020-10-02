@@ -881,7 +881,7 @@ body {
 }
 
 .token.punctuation {
-    color: #525252
+    color: #2ecc71;
 }
 
 .token.property {
@@ -918,9 +918,12 @@ body {
     color: var(--accent)
 }
 
-.token.function,
+.token.function {
+    color: #3498db;
+}
+
 .token.keyword {
-    color: #e96900
+    color: #e67e22;
 }
 
 .token.atrule,

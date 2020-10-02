@@ -1,6 +1,6 @@
 # Handling User input
 
-In this section we're going to focus on how to handle user input via keyboard. Don't worry, there is a dedicated section for mouse input, that you can find [here](/advanced/input/mouse.md).
+In this section we're going to focus on how to handle user input via keyboard. Don't worry, there is a dedicated section for mouse input, that you can find [here](/engine/advanced/input/mouse.md).
 
 ---
 
@@ -33,7 +33,7 @@ onKeyDown(e) {
             this.cube.setPosition({ x: x + 2 });
             break;
         case 65: // A
-            this.cube.setPosition({ x: x - 3 });
+            this.cube.setPosition({ x: x - 2 });
             break;
         default:
             break;

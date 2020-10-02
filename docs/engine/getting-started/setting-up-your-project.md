@@ -23,15 +23,15 @@ The structure of the page is completely up to you, but two elements are required
 
 - `<div id='ui'/>` is the ui container. This is where your UI will render. An entire section of this docs is related to how to enable and work with your UI.
 - `<div id='gameContainer'/>` is the game container. Your scenes will be rendered inside this element. The id of this element can be changed to whatever suits your needs.
+- `<div class='loader' />` is the loading screen container. You don't need this for your application to function, but we recommend to have the loading screen handled by the `progressAnimation` function in your level. More information [here](/engine/advanced/core/level.md?id=progressanimationcallback-function).
 
-Both elements can be styled freely.
+These elements can be styled freely.
 
-?> As you can see, we're referring to `/dist/app.css` and `/dist/app.js`. This means we're going to assume you will have a bundling tool installed, and that you have a basic understanding of how they work. If you find yourself stuck, please refer to [Bundling examples](advanced/bundling.md).
+?> As you can see, we're referring to `/dist/app.css` and `/dist/app.js`. This means we're going to assume you will have a bundling tool installed, and that you have a basic understanding of how they work. If you find yourself stuck, please refer to [Bundling examples](/engine/advanced/bundling.md).
 
 ---
 
 ## index.js
-
 
 You project needs an entry point, which we will call `index.js` . It needs to look like this:
 
@@ -48,7 +48,7 @@ window.addEventListener('load', function() {
 });
 ```
 
-Explanation:
+**Explanation**:
 
 Mage is using an internal Router to bind Scenes to url fragments.
 
@@ -61,7 +61,7 @@ The last thing is the scene import line: `import Scene from './first/Scene';`.
 
 This line is obviously just importing the Scene from where you defined it. There are no constraints on how you name your scenes or where you define them.
 
-?> More informations on Router, how to configure your app or how to define and load your assets can be found here: [Router](/), [Configuration](/) and [Assets](/).
+?> More informations on Router, how to configure your app or how to define and load your assets can be found here: [Router](/engine/advanced/router.md), [Configuration](/engine/advanced/configuration.md) and [Assets](/).
 
 ---
 
@@ -69,4 +69,4 @@ This line is obviously just importing the Scene from where you defined it. There
 
 You're now ready to create your first scene.
 
-[Creating the first scene](/getting-started/creating-first-scene.md)
+[Creating the first scene](/engine/getting-started/creating-first-scene.md)

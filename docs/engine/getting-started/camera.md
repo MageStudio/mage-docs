@@ -35,11 +35,11 @@ onCreate() {
 camera.lookAt(cube.getPosition());
 ```
 
-?> Fore more in depth explanation of the Camera object, please refer to the API section. [Camera](/api/camera.md)
+?> Fore more in depth explanation of the Camera object, please refer to the API section. [Camera](/engine/advanced/core/camera.md)
 
 If everything went smoothly, you should have something like this:
 ![A green wireframe cube on black background](/img/first_scene_camera.png "A green wireframe cube on black backgroun")
 
 ---
 
-Let's be honest, a wireframe cube in the middle of the screen is not exactly the most exciting thing ever, right? How about we take it for a spin with a [Script](/getting-started/scripts.md)?
+Let's be honest, a wireframe cube in the middle of the screen is not exactly the most exciting thing ever, right? How about we take it for a spin with a [Script](/engine/getting-started/scripts.md)?

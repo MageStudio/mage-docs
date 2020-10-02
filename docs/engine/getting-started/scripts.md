@@ -57,7 +57,7 @@ import { Scripts } from 'mage-engine';
 
 import RotationScript from '../rotation';
 
-class FirstScene extends BaseScene {
+class FirstScene extends Level {
 
     onCreate() {
         // this should already contain the cube creation and the camera position update.
@@ -82,7 +82,7 @@ import { Scripts } from 'mage-engine';
 
 import RotationScript from '../rotation';
 
-class FirstScene extends BaseScene {
+class FirstScene extends Level {
 
     onCreate() {
         // this should already contain the cube creation and the camera position update.
@@ -104,4 +104,4 @@ If you now run the application, you should see something like this:
 
 ---
 
-Cool! We now have a rotating cube. But what if we wanted to rotate the cube based on user [Input](/getting-started/handling-input.md)?
+Cool! We now have a rotating cube. But what if we wanted to rotate the cube based on user [Input](/engine/getting-started/handling-input.md)?
