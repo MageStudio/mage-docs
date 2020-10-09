@@ -8,6 +8,18 @@
     box-sizing: border-box
 }
 
+@font-face {
+    src: url('/fonts/JetBrainsMono-Regular.ttf');
+    font-family: "JetBrainsMono";
+    font-weight: 100;
+}
+
+@font-face {
+    src: url('/fonts/JetBrainsMono-Bold.ttf');
+    font-family: "JetBrainsMonoBold";
+    font-weight: 500;
+}
+
 * {
     --accent: #f1c40f;
 }
@@ -87,11 +99,11 @@ body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     color: var(--textColor);
-    font-family: var(--siteFont), Helvetica Neue, Arial, sans-serif;
-    font-size: 17px;
+    font-size: 0.9rem;
     letter-spacing: 0;
     margin: 0;
     overflow-x: hidden;
+    font-family: "JetBrainsMono";
 }
 
 .markdown-section h2 {
@@ -255,7 +267,7 @@ main.hidden {
 }
 
 .anchor span {
-    color: var(--textColor);
+    color: #3498db;
 }
 
 .anchor:hover {
@@ -841,17 +853,22 @@ body {
 .markdown-section code {
     border-radius: 2px;
     color: var(--highlightColor);
-    font-size: .9rem;
+    font-size: .9em;
+    font-family: "JetBrainsMonoBold";
     margin: 0 2px;
     padding: 3px 5px;
     white-space: pre-wrap;
     font-weight: bold;
 }
 
+a code {
+    font-size: .7em !important;
+}
+
 .markdown-section code,
 .markdown-section pre {
     background-color: var(--codeBackgroudColor);
-    font-family: var(--codeFontFamily);
+    /* font-family: var(--codeFontFamily); */
 }
 
 .markdown-section pre {
@@ -860,7 +877,6 @@ body {
     line-height: 1.5rem;
     margin: 1.2em 0;
     overflow: auto;
-    padding: 0 1.4rem;
     position: relative;
     word-wrap: normal
 }
@@ -971,13 +987,12 @@ body {
     border-radius: 2px;
     color: var(--codeTextColor);
     display: block;
-    font-family: Roboto Mono, Monaco, courier, monospace;
-    font-size: .8rem;
+    font-size: .9em;
     line-height: inherit;
     margin: 0 2px;
     max-width: inherit;
     overflow: inherit;
-    padding: 2.2em 5px;
+    padding: 16px;
     white-space: inherit
 }
 
