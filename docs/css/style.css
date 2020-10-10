@@ -9,13 +9,13 @@
 }
 
 @font-face {
-    src: url('/fonts/JetBrainsMono-Regular.ttf');
+    src: url('/docs/fonts/JetBrainsMono-Regular.ttf');
     font-family: "JetBrainsMono";
     font-weight: 100;
 }
 
 @font-face {
-    src: url('/fonts/JetBrainsMono-Bold.ttf');
+    src: url('/docs/fonts/JetBrainsMono-Bold.ttf');
     font-family: "JetBrainsMonoBold";
     font-weight: 500;
 }
