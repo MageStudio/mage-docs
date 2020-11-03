@@ -39,33 +39,27 @@ const UI = ({ title }) => (
 export default UI;
 ```
 
-From now, you're pretty much good to go, the only thing left is to enable your UI.
+The component you just created, `UI`, represents the root component of your application. From here, you are free to do as you please: you have full access to the engine and the redux store.
 
 ## Enabling UI
 
-Each level has a method called `enableUI`.
+Your UI is automatically enabled when launching your application. What you need to is to define your root component inside the `config` Object received by Router at startup, like this:
 
 ```js
+import UI from './ui';
+import Level from './level';
 
-import UI from './UI';
-
-...
-// inside your level
-onCreate() {
-    this.enableUI(UI, {
-        title: 'my game'
-    });
+const config = {
+    ui: {
+        root: UI
+    },
+    ...
 }
+
+window.addEventListener('load', () => {
+    Router.on('/', Level);
+    Router.start(config, {});
+})
 ```
-
-The signature of the method is as follows:
-```js
-enableUI(rootComponent, options);
-```
-
-- `rootComponent` is the root component you want to render.
-- `options` represents a list of options for the component.
-
-> When rendering your root component, you can define the DOM element that will contain your UI tree. Mage will try to read the `root` key of the `options` object, expecting a string selector. By default, Mage will use the first element with id = `#ui`. You can find more informations about the level methods [here](/engine/advanced/level.md).
 
 This is what you need to know to get started. For more detailed informations, you can follow the guide on how to connect your component to the Redux store [here](/engine/advanced/state_management.md).

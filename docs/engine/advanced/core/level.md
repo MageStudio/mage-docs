@@ -40,7 +40,7 @@ The constructor of your level will receive an `options` object, that will be ava
 
 **Example**:
 
-The user lands on `www.domain.com/?value=10&anotherValue=20#myLevel`. What will happen is that the `MyLevel` Level will be loaded, and the options object will be:
+The user lands on `www.domain.com/?value=10&anotherValue=20#/myLevel`. What will happen is that the `MyLevel` Level will be loaded, and the options object will be:
 ```js
 {
     path: '/myLevel',

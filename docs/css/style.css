@@ -90,6 +90,15 @@ div#app:empty:before {
     font-weight: 700
 }
 
+.search input {
+    font-family: 'JetBrainsMono';
+}
+
+.search input:focus {
+    border: 1px solid #F1C41A !important;
+    box-shadow: none !important;
+}
+
 body,
 html {
     height: 100%

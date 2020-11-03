@@ -1,1 +1,3 @@
-# WIP, Come back later
+# Physics
+
+Mage uses Ammo.js as physics engine
