@@ -54,21 +54,21 @@ For Example, being on `https://prettycoolapplication.com?questId=10#/second`, wi
 
 ---
 
-### Methods
+## Methods
 
 Router exposes a series of useful methods that can be used in your application.
 
-#### `on(path: string, LevelClass: BaseLevel)`
+#### on(path: string, LevelClass: BaseLevel)
 
 This method is responsible for registering the desired `LevelClass` for the provided `path`. Using this method is mandatory if you're planning have levels.
 
-#### `start(config: object, assets: object)`
+#### start(config: object, assets: object)
 
 !> This method starts your application.
 
 Calling this method will effectively start your application. The moment when you decide to call this is entirely up to you. This means you can define your routes in a module (using the `.on` method explained above), and start the application only when everything you need is ready: for example, you might want to wait for an AJAX call to be completed, or for some other operation to be done before starting.
 
-#### `getCurrentLevel(): string`
+#### getCurrentLevel(): string
 
 This method will return the path of the current level.
 
@@ -79,7 +79,7 @@ E.g.:
 console.log(Router.getCurrentLevel()); // will print '/level';
 ```
 
-#### `goTo(path: string, options: object)`
+#### goTo(path: string, options: object)
 
 This method is used to programmatically navigate to a different level.
 

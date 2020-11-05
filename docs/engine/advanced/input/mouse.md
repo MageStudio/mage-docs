@@ -156,7 +156,7 @@ This event will be fired when the user clicks on the level but no meshes interce
 
 The Mouse module exposes the following method:
 
-### `getIntersections(): list` 
+#### getIntersections(): list
 
 This method will check intersections between your mouse and your level meshes. It will return a list of meshes.
 

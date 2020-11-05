@@ -119,7 +119,7 @@ This event will be fired once the page receives a `keyPress` event. Your listene
 
 The Keyboard module exposes the following method:
 
-### `isPressed(keyName: string): boolean`
+#### isPressed(keyName: string): boolean
 
 This method receives one parameter, `keyName`, and will check if its keyboard button is being pressed or not. It returns a boolean.
 
@@ -129,7 +129,7 @@ const isUserPressingW = Input.keyboard.isPressed('w');
 console.log(isUserPressingW); // true
 ```
 
-### `register(key: string, handler?: function)`
+#### register(key: string, handler?: function)
 
 This method allows you to listen to events for a specific `key`. If the `key` has already been registered, a message will be displayed in the console.
 The `handler` parameter is optional. If provided, it will be used to handle the `key` you want to listen to. If the handler is missing, the event will follow the existing flow and will be handled by your `keyUp`, `keyDown`, `keyPress` listeners.
@@ -140,7 +140,7 @@ Input.keyboard.register('ctrl'); // now listening to ctrl
 Input.keyboard.register('cmd'); // now listening to cmd
 ```
 
-### `registerCombination(combo: string[], handler?: function)`
+#### registerCombination(combo: string[], handler?: function)
 
 This method allows you to listen to events for combinations of keys. If the combination has already been registered, a message will be displayed in the console.
 The `handler` parameter is optional. If provided, it will be used to handle the combination you want to listen to. If the handler is missing, the event will follow the existing flow and will be handled by your `keyUp`, `keyDown`, `keyPress` listeners.

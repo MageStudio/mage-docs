@@ -63,3 +63,32 @@ window.addEventListener('load', () => {
 ```
 
 This is what you need to know to get started. For more detailed informations, you can follow the guide on how to connect your component to the Redux store [here](/engine/advanced/state_management.md).
+
+## Loading screens
+
+When loading a level, you are responsible to render a loading screen. You can use your existing UI structure for this purpose.
+
+As explained in the [state management page](/engine/advanced/state_management.md), Mage will dispatch actions for your UI as well. In particular, it will update the `ui` entry of the store, allowing you to detect when the loading screen should be visible and when it's safe to remove it.
+
+The following example assumes you have a basic understanding of how Redux works and how you can connect your components to the store. This means your root component can look like something like this:
+
+```javascript
+import { connect } from 'mage-engine';
+
+const RootComponent = ({ loadingScreenVisible }) => (
+    loadingScreenVisible ? 
+        <span>loading...</span> : 
+        <MainMenu/>
+);
+
+const mapStateToProps = (state) => {
+    const { ui } = state;
+
+    return {
+        loadingScreenVisible: ui.loadingScreenVisible
+    };
+}
+
+export default connect(mapStateToProps)(RootComponent);
+```
+

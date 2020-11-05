@@ -136,7 +136,7 @@ Whenever you release a button on your gamepad, the following event will be dispa
 
 The Gamepad module exposes the following method:
 
-### `getConnectedGamepads()`
+#### getConnectedGamepads()
 
 This method will return an object representing all connected gamepads. This object will be updated at each frame.
 ```javascript

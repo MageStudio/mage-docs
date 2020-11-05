@@ -813,6 +813,10 @@ body {
     font-size: 1.25rem
 }
 
+.markdown-section h4 a span {
+    color: #d35400;
+}
+
 .markdown-section h5 {
     font-size: 1rem
 }
